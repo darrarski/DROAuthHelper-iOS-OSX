@@ -3,7 +3,7 @@ DROAuthHelper for iOS & OS X
 
 Helper classes for playing with oAuth2.
 
-Under development, not ready for production!
+**Under development, not ready for production!**
 
 Requires [DRURLParametersParser](https://bitbucket.org/darrarski/drurlparametersparser-ios-osx) and [AFNetworking 2](https://github.com/AFNetworking/AFNetworking)
 
