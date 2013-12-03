@@ -94,7 +94,7 @@ NSInteger const DROAuthFacebookErrorAccessTokenNotFoundInResponse = 3;
 		 else
 		 {
 			 DRURLParametersParser *parser = [[DRURLParametersParser alloc] initWithParametersString:responseString];
-			 NSString *accessToken = [parser valueForParameter:DROAuthFacebookAccessTokenUrlString];
+			 NSString *accessToken = [parser valueForParameter:DROAuthFacebookAccessTokenParameterName];
 			 
 			 if (!(accessToken && ![accessToken isEqualToString:@""]))
 			 {
