@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.osx.source_files = 'DROAuthHelper'
   s.ios.source_files = 'DROAuthHelper'
   s.requires_arc = true
+  s.dependency   'AFNetworking'
 end
