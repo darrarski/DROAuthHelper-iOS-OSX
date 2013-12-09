@@ -66,6 +66,8 @@ NSInteger const DROAuthFacebookErrorAccessTokenNotFoundInResponse = 3;
 											 userInfo:nil];
 			failure(error);
 		}
+		
+		return;
 	}
 	
 	NSDictionary *parameters = @{ DROauthFacebookClientIdParameterName : self.oauth.clientId,
